@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.body {
+
+
+    height: 100vh;
+    padding: 0 65px;
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 0px 50px 0px;
+
+}
+
+.right-nav {
+    display: flex;
+}
+
+.swicher-cont {
+    width: 43px;
+    height: 20px;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+
+}
+
+
+.line {
+    width: 1px;
+    height: 30px;
+    background-color: black;
+    margin: 0px 20px;
+}
+
+.circle {
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+.arrow-down {
+    display: flex;
+    column-gap: 20px;
+}
+
+.input-cont {
+    display: flex;
+    background-color: rgb(244, 245, 244);
+    border-radius: 20px;
+    height: 65px;
+    padding: 0px 0px 0px 25px;
+    margin-bottom: 60px;
+}
+
+.search-input {
+    background-color: rgb(244, 245, 244);
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    outline: none;
+height: 100%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+width: auto;
+padding-right: 25px;
+padding-left: 10px;
+background-color: rgb(244, 245, 244);
+border: none;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+
+
+
+}
+
+.search:hover{
+    cursor: pointer;
+}
+
+
+
+.dictionary{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.word{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+
+.audio{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(233,209,251);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.audio:hover{
+
+    background-color: rgb(165,69,236);
+    cursor: pointer;
+
+}
+
+.audio:hover > .play{
+
+    border-left-color: white;
+}
+
+
+.play{
+
+    width: 0;
+      height: 0;
+      border-top: 12px solid transparent;
+      border-left: 21px solid rgb(164,68,236);
+      border-bottom: 12px solid transparent;
+}
+
+
+
+.counter{
+    margin-left: 30px;
+}
