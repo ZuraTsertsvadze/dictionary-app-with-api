@@ -635,7 +635,7 @@ function request(value) {
 
 
     })
-
+//sss
 
     //to  reseter page
     const sectiionCont = document.querySelectorAll(".word");
